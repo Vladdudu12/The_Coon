@@ -1,0 +1,30 @@
+{
+  "name": "the-coon",
+  "version": "1.0.0",
+  "repository": "https://github.com/Vladdudu12/The_Coon.git",
+  "description": "A simple raccoon with a simple dream",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "prettier --write \"**/*.js\""
+  },
+  "keywords": [
+    "discord",
+    "music",
+    "bot"
+  ],
+  "author": "Vlad Dudu",
+  "dependencies": {
+    "@discordjs/opus": "^0.6.0",
+    "discord-player": "^5.1.0",
+    "discord.js": "^13.1.0",
+    "ffmpeg": "0.0.4",
+    "ffmpeg-static": "^4.4.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "opusscript": "^0.0.8",
+    "ytdl-core": "^4.9.1"
+  },
+  "devDependencies": {
+    "prettier": "2.4.1"
+  }
+}

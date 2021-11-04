@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "repository": "https://github.com/Vladdudu12/The_Coon.git",
   "description": "A simple raccoon with a simple dream",
+  "engines": {
+    "node": "16.x"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

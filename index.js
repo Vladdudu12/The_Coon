@@ -1,8 +1,18 @@
+const express = require('express');
+const path = require('path')
+const PORT = process.env.PORT || 5000
 const fs = require('fs');
 const Discord = require('discord.js');
 const Client = require('./client/Client');
 const config = require('./config.json');
 const {Player} = require('discord-player');
+
+express()
+  .use(express.static(path.join(__dirname, 'public')))
+  .set('views', path.join(__dirname, 'views'))
+  .set('view engine', 'ejs')
+  .listen(PORT, () => console.log(`Listening on ${ PORT }`));
+
 
 const client = new Client();
 client.commands = new Discord.Collection();

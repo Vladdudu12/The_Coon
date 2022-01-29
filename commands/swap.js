@@ -52,7 +52,7 @@ module.exports = {
       queue.insert(track2, queueNumbers[0]); // Add track in lowest position first to avoid list order issues
       queue.insert(track1, queueNumbers[1]);
       return void interaction.followUp({
-        content: `✅ | Swapped **${track1}** & **${track2}**!`,
+        content: `Swapped **${track1}** & **${track2}**!`,
       });
     } catch (error) {
       console.log(error);
@@ -62,3 +62,4 @@ module.exports = {
     }
   },
 };
+

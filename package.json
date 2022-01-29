@@ -1,8 +1,8 @@
 {
-  "name": "the-coon",
+  "name": "mini-coon",
   "version": "1.0.0",
-  "repository": "https://github.com/Vladdudu12/The_Coon.git",
-  "description": "A simple raccoon with a simple dream",
+  "repository": "https://gitlab.com/Vladdudu12/mini_coon",
+  "description": "A simple smaller raccoon with a simple dream",
   "engines": {
     "node": "16.x"
   },

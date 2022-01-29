@@ -11,3 +11,4 @@ module.exports = class extends Client {
     this.config = config;
   }
 };
+

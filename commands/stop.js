@@ -31,3 +31,4 @@ module.exports = {
     return void interaction.followUp({content: 'Stopped the player!'});
   },
 };
+
